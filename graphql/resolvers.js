@@ -1,6 +1,10 @@
+import { people, getById } from "./db"
+
+
 const resolvers = {
 	Query: {
-		name: () => 'eshell'
+		people: () => people,
+		person: () => getById()
 	}
 };
 

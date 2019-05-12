@@ -9,6 +9,7 @@
 	"dependencies": {
 		"axios": "^0.18.0",
 		"graphql-yoga": "^1.16.7",
+		"node-axios": "^0.1.0",
 		"node-fetch": "^2.5.0"
 	},
 	"scripts": {
